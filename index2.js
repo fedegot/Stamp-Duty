@@ -21,29 +21,25 @@ function firstCase() {
 function secondCase() {
   if (second == false) {
     percentage.push(0.03);
-    thirdCase();
-  } else if (second == true) {
-    thirdCase();
+    return thirdCase();
   }
+  thirdCase();
 }
 
 function thirdCase() {
   if (third == false) {
     percentage.push(0.03);
-    fourthCase();
-  } else if (third == true) {
-    fourthCase();
+    return fourthCase();
   }
+  fourthCase();
 }
 
 function fourthCase() {
   if (fourth == false) {
     percentage.push(0.04);
-    //console.log(percentage);
-    value();
-  } else if (fourth == true) {
-    value();
+    return value();
   }
+  value();
 }
 
 function value() {
