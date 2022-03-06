@@ -13,10 +13,9 @@ firstCase();
 function firstCase() {
   if (first == false) {
     percentage.push(0.02);
-    secondCase();
-  } else if (first == true) {
-    secondCase();
+    return secondCase();
   }
+  secondCase();
 }
 
 function secondCase() {

@@ -16,29 +16,29 @@
 // understand and information more readily available.
 // You will not be penalised in any way for whichever version you implement.
 
-// function lbtt(cost) {
-//   if (cost <= 145000) {
-//     console.log(`You have to pay ${cost} on LBTT`);
-//   } else if (cost >= 145001 && cost <= 250000) {
-//     console.log(`You have to pay ${0.02 * cost} on LBTT`);
-//   } else if (cost >= 250001 && cost <= 325000) {
-//     console.log(`You have to pay ${0.05 * cost} on LBTT2`);
-//   } else if (cost >= 325001 && cost <= 750000) {
-//     console.log(`You have to pay ${0.1 * cost} on LBTT`);
-//   } else console.log(`You have to pay ${0.12 * cost} on LBTT`);
-// }
-
 function lbtt(cost) {
   if (cost <= 145000) {
-    return cost;
+    console.log(`You have to pay ${cost} on LBTT`);
   } else if (cost >= 145001 && cost <= 250000) {
-    return 0.02 * cost;
+    console.log(`You have to pay ${0.02 * cost} on LBTT`);
   } else if (cost >= 250001 && cost <= 325000) {
-    return 0.05 * cost;
+    console.log(`You have to pay ${0.05 * cost} on LBTT2`);
   } else if (cost >= 325001 && cost <= 750000) {
-    return 0.01 * cost;
-  } else return 0.12 * cost;
+    console.log(`You have to pay ${0.1 * cost} on LBTT`);
+  } else console.log(`You have to pay ${0.12 * cost} on LBTT`);
 }
+
+// function lbtt(cost) {
+//   if (cost <= 145000) {
+//     return cost;
+//   } else if (cost >= 145001 && cost <= 250000) {
+//     return 0.02 * cost;
+//   } else if (cost >= 250001 && cost <= 325000) {
+//     return 0.05 * cost;
+//   } else if (cost >= 325001 && cost <= 750000) {
+//     return 0.01 * cost;
+//   } else return 0.12 * cost;
+// }
 
 lbtt(751000);
 
